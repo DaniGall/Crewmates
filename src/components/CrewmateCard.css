@@ -1,0 +1,40 @@
+.crewmate-card {
+    background-color: #444;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 280px;
+    color: white;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.crewmate-card:hover {
+    transform: scale(1.03);
+}
+
+.crewmate-avatar {
+    width: 60px;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.crewmate-card p {
+    margin: 0.5rem 0;
+}
+
+.crewmate-card span {
+    background-color: #ddd;
+    color: #111;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+.crewmate-card button {
+    background-color: #111;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
